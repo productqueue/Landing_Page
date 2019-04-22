@@ -152,6 +152,10 @@ header {
   color: white;
 }
 
+hr {
+  margin-bottom: 16px;
+}
+
 @media (max-width: 550px) {
   header {
     width: 100%;
@@ -163,12 +167,15 @@ header {
   font-family: 'arial';
   text-decoration: none;
   color: white;
+  margin-left: -300px;
 }
+
 header nav a {
   margin: 0 15px;
   text-decoration: none;
   font-family: 'arial';
   color: white;
+  font-size: 15px;
 }
 
 #logoPic {
@@ -219,4 +226,17 @@ button {
 .bottom {
   border: 1px solid red;
   height: 130px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('blurpc.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
