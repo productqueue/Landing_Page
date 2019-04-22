@@ -136,8 +136,9 @@ body {
 }
 
 .container {
-  width: 880px;
+  width: 100%;
   margin: 0 auto;
+  height: 100%;
 }
 
 header {
@@ -151,8 +152,10 @@ header {
   color: white;
 }
 
-#logoPic {
-  height: 50px;
+@media (max-width: 550px) {
+  header {
+    width: 100%;
+  }
 }
 
 .brand {
@@ -161,7 +164,6 @@ header {
   text-decoration: none;
   color: white;
 }
-
 header nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -169,17 +171,21 @@ header nav a {
   color: white;
 }
 
+#logoPic {
+  height: 50px;
+}
+
 .main {
   display: flex;
-	justify-content: center;
+  justify-content: center;
   align-items: center;
   background-color: #bb1333;
-  height: 30rem;
+  height: 100%;
 }
- 
+
 .main .main-content {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -187,14 +193,14 @@ h1 {
   font-family: 'arial';
   color: white;
   /* margin-left: 27px; */
-  font-size: 3rem; 
+  font-size: 3rem;
 }
 
 h2 {
   font-family: 'arial';
   color: white;
   /* margin-left: 27px; */
-  font-size: 1rem; 
+  font-size: 1rem;
   margin: 10px 0;
 }
 
