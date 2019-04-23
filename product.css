@@ -249,8 +249,8 @@ h2 {
   width: 15rem;
   border: 1px solid black;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  margin-top: 153px;
-  margin-left: 244px;
+  margin-top: 118px;
+  margin-left: 155px;
 }
 
 .mainButton:hover {
@@ -262,10 +262,11 @@ h2 {
 @media (max-width: 550px) {
   .mainButton {
     /* width: 100%; */
-    font-size: 23px;
-    padding: 5px;
-    width: 12rem;
+    font-size: 16px;
+    padding: 3px;
+    width: 9rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 132px;
   }
 }
 
@@ -279,21 +280,54 @@ h2 {
   width: 100%;
 }
 
-.cover-content h3 {
+.cover-content .coverTitle {
   position: absolute;
   color: red;
-  font-size: 4rem;
-  margin: 80px 0 0 150px;
+  font-size: 3.5rem;
+  margin: 55px 0 0 80px;
   letter-spacing: 0.3rem;
   /* display: flex;
   flex-direction: row; */
 }
 
 @media (max-width: 550px) {
-  .cover-content h3 {
+  .cover-content .coverTitle {
     align-items: center;
-    justify-content: start;
-    font-size: 2rem;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin: 80px 0 0 94px;
+
+    /* margin-top: 90px;
+    margin-left: 125px; */
+  }
+}
+
+.intro-content {
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'lato';
+  font-size: 2rem;
+  margin: 25px 0 5px 0;
+  color: #bb1333;
+}
+
+@media (max-width: 550px) {
+  .intro-text {
+    font-size: 1.4rem;
+    margin-bottom: 17px;
+  }
+}
+
+.introP {
+  font-family: 'lato';
+  font-size: 1.2rem;
+  margin: 10px 0 10px 0;
+}
+@media (max-width: 550px) {
+  .introP {
+    display: none;
   }
 }
 
@@ -321,6 +355,8 @@ h2 {
 .middle-bot-content {
   display: flex;
   border: 1px solid black;
+  background-color: #bb1333;
+  color: white;
 }
 @media (max-width: 550px) {
   .middle-bot-content {
@@ -396,5 +432,20 @@ h2 {
   background-color: #ffe6e6;
   opacity: 50%;
   color: black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-three {
+  cursor: pointer;
+  background: #ffe6e6;
+  color: black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-three:hover {
+  background-color: #bb1333;
+  opacity: 50%;
+  color: white;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
