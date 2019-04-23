@@ -145,16 +145,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  border: 1px solid red;
+  /* margin-bottom: 20px; */
+  border-bottom: 1px solid white;
   height: 5rem;
   background-color: #bb1333;
   color: white;
-}
-
-hr {
-  margin-bottom: 16px;
-  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); */
 }
 
 @media (max-width: 550px) {
@@ -254,20 +249,41 @@ button:hover {
   }
 }
 
-/* .bottom {
-  border: 1px solid red;
-  height: 130px;
-} */
-
 .bg {
-  /* The image used */
+  /* height: 50%;
+  width: 100%; */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.cover-content {
+  position: relative;
   background-image: url('blurpc.jpg');
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 400px;
+  width: 100%;
 }
+
+.cover-content h3 {
+  position: absolute;
+  color: red;
+  font-size: 4rem;
+  margin: 80px 0 0 150px;
+  letter-spacing: 0.3rem;
+}
+
+/* .bg { */
+/* The image used */
+/* background-image: url('blurpc.jpg'); */
+
+/* Full height */
+/* height: 100%; */
+
+/* Center and scale the image nicely */
+/* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
