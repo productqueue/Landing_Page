@@ -249,14 +249,6 @@ button:hover {
   }
 }
 
-.bg {
-  /* height: 50%;
-  width: 100%; */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
 .cover-content {
   position: relative;
   background-image: url('blurpc.jpg');
@@ -273,17 +265,87 @@ button:hover {
   font-size: 4rem;
   margin: 80px 0 0 150px;
   letter-spacing: 0.3rem;
+  /* display: flex;
+  flex-direction: row; */
 }
 
-/* .bg { */
-/* The image used */
-/* background-image: url('blurpc.jpg'); */
+@media (max-width: 550px) {
+  .cover-content h3 {
+    align-items: center;
+    justify-content: start;
+    font-size: 2rem;
+  }
+}
 
-/* Full height */
-/* height: 100%; */
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
 
-/* Center and scale the image nicely */
-/* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+.middle-content {
+  display: flex;
+}
+@media (max-width: 550px) {
+  .middle-content {
+    flex-direction: column;
+  }
+}
+
+.middle-bot-content {
+  display: flex;
+}
+@media (max-width: 550px) {
+  .middle-bot-content {
+    flex-direction: column;
+  }
+}
+
+.middle .text-content {
+  width: 49%;
+  vertical-align: top;
+  /* border: 1px solid red; */
+  font-size: 1.8rem;
+  justify-content: center;
+  padding: 18px;
+}
+
+@media (max-width: 550px) {
+  .middle .text-content {
+    width: 100%;
+  }
+}
+
+.middle .img-content {
+  width: 48%;
+}
+
+@media (max-width: 550px) {
+  .middle .img-content {
+    width: 100%;
+  }
+}
+
+.mid-image {
+  order: 0;
+}
+
+@media (max-width: 550px) {
+  .mid-image {
+    order: 1;
+  }
+}
+
+.pctwo {
+  height: auto;
+  width: 100%;
+}
+
+.titles {
+  font-size: 3rem;
+}
