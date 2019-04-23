@@ -368,15 +368,33 @@ h2 {
   height: 100%;
   width: 100%;
   margin-left: 30px;
+  border-left: 2px solid black;
 }
 
 .titles {
   font-size: 2.5rem;
   font-family: 'lato';
   margin: 8px 0;
+  text-align: center;
 }
 
 .pcthree {
   height: 100%;
   width: 100%;
+  border-right: 2px solid black;
+}
+
+.button-two {
+  cursor: pointer;
+  background: #bb1333;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-two:hover {
+  background-color: #ffe6e6;
+  opacity: 50%;
+  color: black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
