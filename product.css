@@ -223,24 +223,44 @@ h2 {
   }
 }
 
-button {
+.landingButton {
   font-family: 'lato';
   border-radius: 10px;
-  padding: 4px;
+  padding: 2.5px;
   font-size: 20px;
   cursor: pointer;
-  width: 18rem;
+  width: 15rem;
   border: 1px solid black;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
-button:hover {
+
+.landingButton:hover {
+  background-color: #ffe6e6;
+  opacity: 50%;
+  color: black;
+}
+
+.mainButton {
+  font-family: 'lato';
+  border-radius: 10px;
+  padding: 2.5px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 15rem;
+  border: 1px solid black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 153px;
+  margin-left: 244px;
+}
+
+.mainButton:hover {
   background-color: #ffe6e6;
   opacity: 50%;
   color: black;
 }
 
 @media (max-width: 550px) {
-  button {
+  .mainButton {
     /* width: 100%; */
     font-size: 23px;
     padding: 5px;
@@ -290,6 +310,7 @@ button:hover {
 
 .middle-content {
   display: flex;
+  border: 1px solid black;
 }
 @media (max-width: 550px) {
   .middle-content {
@@ -299,6 +320,7 @@ button:hover {
 
 .middle-bot-content {
   display: flex;
+  border: 1px solid black;
 }
 @media (max-width: 550px) {
   .middle-bot-content {
@@ -310,9 +332,10 @@ button:hover {
   width: 49%;
   vertical-align: top;
   /* border: 1px solid red; */
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   justify-content: center;
-  padding: 18px;
+  padding: 50px;
+  line-height: 25px;
 }
 
 @media (max-width: 550px) {
@@ -342,10 +365,18 @@ button:hover {
 }
 
 .pctwo {
-  height: auto;
+  height: 100%;
   width: 100%;
+  margin-left: 30px;
 }
 
 .titles {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-family: 'lato';
+  margin: 8px 0;
+}
+
+.pcthree {
+  height: 100%;
+  width: 100%;
 }
