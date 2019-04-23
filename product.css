@@ -154,6 +154,7 @@ header {
 
 hr {
   margin-bottom: 16px;
+  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); */
 }
 
 @media (max-width: 550px) {
@@ -176,6 +177,13 @@ header nav a {
   font-family: 'arial';
   color: white;
   font-size: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+  background-color: #ffe6e6;
+  opacity: 50%;
+  color: black;
 }
 
 #logoPic {
@@ -212,21 +220,44 @@ h2 {
   margin: 10px 0;
 }
 
+@media (max-width: 550px) {
+  h2 {
+    width: 100%;
+    font-size: 0.8rem;
+    margin-left: 15px;
+  }
+}
+
 button {
   font-family: 'arial';
-  padding: 4px;
   border-radius: 10px;
+  padding: 4px;
   font-size: 20px;
-  margin-top: 10px;
   cursor: pointer;
   width: 18rem;
   border: 1px solid black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  background-color: #ffe6e6;
+  opacity: 50%;
+  color: black;
 }
 
-.bottom {
+@media (max-width: 550px) {
+  button {
+    /* width: 100%; */
+    font-size: 23px;
+    padding: 5px;
+    width: 12rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* .bottom {
   border: 1px solid red;
   height: 130px;
-}
+} */
 
 .bg {
   /* The image used */
