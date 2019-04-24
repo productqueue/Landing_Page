@@ -303,6 +303,73 @@ h2 {
   }
 }
 
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  /* position: fixed; */
+  height: 44px;
+  background-color: #333;
+}
+
+.top-bar .container {
+  width: 100%;
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  flex-direction: row;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0 10px;
+}
+
+.top-bar .container .container-left {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-size: 11px;
+}
+.top-bar .container .container-left span {
+  cursor: pointer;
+  margin-right: 25%;
+  font-weight: bold;
+}
+.top-bar .container .container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex: 3;
+  font-size: 9px;
+  font-family: 'lato';
+}
+.top-bar .container .container-center span {
+  cursor: pointer;
+  margin-right: 5%;
+}
+.top-bar .container .container-center span:last-child {
+  margin-right: 0;
+}
+.top-bar .container .container-center span:hover {
+  text-decoration: underline;
+}
+.top-bar .container .container-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-size: 11px;
+  font-weight: bold;
+}
+.top-bar .container .container-right span {
+  cursor: pointer;
+}
+
 .intro-content {
   text-align: center;
 }
@@ -310,7 +377,7 @@ h2 {
 .intro-text {
   font-family: 'lato';
   font-size: 2rem;
-  margin: 25px 0 5px 0;
+  margin: 7px 0 5px 0;
   color: #bb1333;
 }
 
@@ -371,7 +438,7 @@ h2 {
   /* border: 1px solid red; */
   font-size: 1.2rem;
   justify-content: center;
-  padding: 50px;
+  padding: 25px 20px 20px 55px;
   line-height: 25px;
 }
 
@@ -473,4 +540,18 @@ h2 {
 
 .features {
   color: #002070;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  border-top: 2px solid black;
+  background-color: #bb1333;
+  justify-content: center;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
 }
