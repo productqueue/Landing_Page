@@ -138,7 +138,7 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  height: 100%;
+  /* height: 100%; */
 }
 
 header {
@@ -146,7 +146,7 @@ header {
   justify-content: space-between;
   align-items: center;
   /* margin-bottom: 20px; */
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   height: 5rem;
   background-color: #bb1333;
   color: white;
@@ -311,7 +311,7 @@ h2 {
   flex-direction: row;
   /* position: fixed; */
   height: 44px;
-  background-color: #333;
+  background-color: #55596d;
 }
 
 .top-bar .container {
