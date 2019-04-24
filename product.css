@@ -251,6 +251,7 @@ h2 {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   margin-top: 118px;
   margin-left: 155px;
+  padding-bottom: 7px;
 }
 
 .mainButton:hover {
@@ -432,6 +433,13 @@ h2 {
   border-radius: 4px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 550px) {
+  .button-two {
+    margin-left: 104px;
+    margin-top: 12px;
+    padding: ;
+  }
+}
 
 .button-two:hover {
   background-color: #ffe6e6;
@@ -448,9 +456,21 @@ h2 {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 550px) {
+  .button-three {
+    margin-left: 104px;
+    margin-top: 12px;
+    padding: ;
+  }
+}
+
 .button-three:hover {
   background-color: #bb1333;
   opacity: 50%;
   color: white;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.features {
+  color: #002070;
 }
