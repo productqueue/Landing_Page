@@ -555,3 +555,7 @@ h2 {
   font-size: 1rem;
   padding: 20px;
 }
+
+.intro .tabs-item {
+  display: none;
+}
