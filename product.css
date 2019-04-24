@@ -556,6 +556,20 @@ h2 {
   padding: 20px;
 }
 
-.intro .tabs-item {
+.tabs-item {
   display: none;
+}
+
+.tabs-item-selected {
+  display: flex;
+}
+
+.center-img {
+  position: relative;
+  background-image: url('deskpc.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
 }
