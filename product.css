@@ -141,6 +141,12 @@ body {
   /* height: 100%; */
 }
 
+.container-one {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -344,7 +350,7 @@ h2 {
   align-items: center;
   flex-direction: row;
   flex: 3;
-  font-size: 9px;
+  font-size: 12px;
   font-family: 'lato';
 }
 .top-bar .container .container-center span {
@@ -372,6 +378,10 @@ h2 {
 
 .intro-content {
   text-align: center;
+}
+
+.login-link {
+  text-decoration: none;
 }
 
 .intro-text {
@@ -572,4 +582,41 @@ h2 {
   background-size: cover;
   height: 500px;
   width: 100%;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+
+  background-color: #bb1333;
+  height: 100%;
+}
+
+.team-content {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.team .team-content .text-content {
+  display: flex;
+  width: 29%;
+  vertical-align: top;
+  margin: 15px 15px;
+  align-items: center'
+}
+
+.team .text-content {
+  display: flex;
+  width: 29%;
+  vertical-align: top;
+  /* margin: 15px 15px; */
+}
+
+.team-title {
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 13px;
+  margin-top: 30px;
 }
