@@ -492,6 +492,12 @@ h2 {
   display: flex;
   border: 1px solid black;
 }
+
+@media (max-width: 800px) {
+  .middle-content {
+  }
+}
+
 @media (max-width: 550px) {
   .middle-content {
     flex-direction: column;
