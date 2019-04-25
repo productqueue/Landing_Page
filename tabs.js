@@ -41,3 +41,19 @@ class TabItem {
 let links = document.querySelectorAll('.tabs-link');
 links = Array.from(links).map(link => new TabLink(link));
 links[0].select();
+
+// function changeImage() {
+//   var img = document.querySelector('.blurpc.jpg');
+//   img.src = images[x];
+//   x++;
+
+//   if (x >= images.length) {
+//     x = 0;
+//   }
+//   var timerid = setInterval(changeImage(), 1000);
+// }
+// var images = [],
+//   x = 0;
+// images[0] = '/img/woodpc.jpg';
+// images[1] = '/img/pcone.jpg';
+// images[2] = '/img/deskpc.jpg';
