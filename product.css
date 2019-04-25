@@ -133,6 +133,7 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'lato';
 }
 
 .container {
@@ -165,11 +166,10 @@ header {
 }
 
 .brand {
-  margin-left: 1rem;
+  /* margin-left: 10px; */
   font-family: 'lato';
   text-decoration: none;
   color: white;
-  margin-left: -300px;
 }
 
 header nav a {
@@ -179,6 +179,12 @@ header nav a {
   color: white;
   font-size: 15px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 550px) {
+  header nav a {
+    margin: 5px;
+  }
 }
 
 nav a:hover {
@@ -206,11 +212,24 @@ nav a:hover {
   align-items: center;
 }
 
+@media (max-width: 550px) {
+  .main .main-content {
+    margin-bottom: 20rem;
+  }
+}
+
 h1 {
   font-family: 'lato';
   color: white;
   /* margin-left: 27px; */
-  font-size: 3rem;
+  font-size: 5rem;
+}
+@media (max-width: 550px) {
+  h1 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+  }
 }
 
 h2 {
@@ -279,7 +298,7 @@ h2 {
 
 .cover-content {
   position: relative;
-  background-image: url('blurpc.jpg');
+  background-image: url('/img/blurpc.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -446,10 +465,11 @@ h2 {
   width: 49%;
   vertical-align: top;
   /* border: 1px solid red; */
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   justify-content: center;
   padding: 25px 20px 20px 55px;
   line-height: 25px;
+  margin-top: 22px;
 }
 
 @media (max-width: 550px) {
@@ -550,6 +570,23 @@ h2 {
 
 .features {
   color: #002070;
+  margin-bottom: 15px;
+}
+
+.features:hover {
+  color: #bb1333;
+  opacity: 50%;
+  color: red;
+}
+
+.productivity:hover {
+  color: #bb1333;
+  opacity: 50%;
+  color: #002070;
+}
+
+.productivity {
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -576,7 +613,7 @@ h2 {
 
 .center-img {
   position: relative;
-  background-image: url('deskpc.jpg');
+  background-image: url('/img/deskpc.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -612,14 +649,6 @@ h2 {
   }
 }
 
-/* .team .team-content .text-content {
-  display: flex;
-  width: 29%;
-  vertical-align: top;
-  margin: 15px 15px;
-  align-items: center'
-} */
-
 .team .text-content {
   display: flex;
   flex-direction: column;
@@ -629,9 +658,10 @@ h2 {
   border: 1px solid black;
   height: 40%;
   background-color: white;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
   letter-spacing: 3px;
+  line-height: 30px;
 }
 
 @media (max-width: 550px) {
@@ -643,11 +673,17 @@ h2 {
 
 .team-title {
   color: white;
-  font-size: 3rem;
+  font-size: 5rem;
   letter-spacing: 13px;
   /* margin-top: 100px; */
   text-align: center;
   background: #bb1333;
+}
+@media (max-width: 550px) {
+  .team-title {
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+  }
 }
 
 .names {
@@ -672,13 +708,17 @@ h2 {
   margin-top: 14px;
 }
 
+.ethanpic {
+  height: 230px;
+}
+
 .team-title {
   animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    color: #001f3f;
+    color: #002070;
   }
   100% {
     color: #ff4136;
@@ -691,7 +731,7 @@ h2 {
 
 @keyframes pulse {
   0% {
-    color: #001f3f;
+    color: #002070;
   }
   100% {
     color: white;
@@ -704,10 +744,23 @@ h2 {
 
 @keyframes pulse {
   0% {
-    color: #001f3f;
+    color: #ff4136;
   }
   100% {
+    color: #002070;
+  }
+}
+
+.intro-text {
+  animation: pulse 8s infinite;
+}
+
+@keyframes pulse {
+  0% {
     color: #ff4136;
+  }
+  100% {
+    color: #002070;
   }
 }
 
