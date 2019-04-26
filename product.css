@@ -224,7 +224,7 @@ header nav a {
 
 nav a:hover {
   opacity: 50%;
-  color: #b8c6f4;
+  color: #dae1f9;
 }
 
 #logoPic {
@@ -779,12 +779,14 @@ h2 {
 }
 
 .angel {
-  height: 195px;
+  /* height: 195px; */
   margin-top: 16px;
+  height: 100%;
 }
 
 .conner {
   margin-top: 18px;
+  height: 100%;
 }
 
 .ethanpic {
