@@ -504,6 +504,12 @@ h2 {
   }
 }
 
+@media (max-width: 550px) {
+  .product-text {
+    font-size: 1.3rem;
+  }
+}
+
 .middle-bot-content {
   display: flex;
   border: 1px solid black;
