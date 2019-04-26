@@ -780,9 +780,8 @@ h2 {
 }
 
 .angel {
-  /* height: 195px; */
+  height: 255px;
   margin-top: 16px;
-  height: 100%;
 }
 
 .conner {
@@ -807,11 +806,6 @@ h2 {
     color: white;
   }
 }
-
-/* #ethan-card {
-  height: 600px;
-  border: 6px solid blue;
-} */
 
 .product-queue {
   animation: pulse 5s infinite;
