@@ -281,7 +281,7 @@ h2 {
   h2 {
     width: 100%;
     font-size: 0.8rem;
-    margin-left: 15px;
+    margin-left: 100px;
   }
 }
 
@@ -363,6 +363,7 @@ h2 {
   font-size: 3.5rem;
   margin: 55px 0 0 80px;
   letter-spacing: 0.3rem;
+
   /* display: flex;
   flex-direction: row; */
 }
